@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box!important;
+    list-style-type: none!important;
+    text-decoration: none!important;
+}
+
+body {
+    font-family: 'Nunito', sans-serif!important;
+}
+
+.navbar {
+    background-color: white!important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15)!important;
+}
+
+.nav-link {
+    color: black!important;
+    font-weight: 600!important;
+    transition: color ease 0.15s!important;
+}
+
+.nav-link:hover {
+    color: rgb(255, 94, 0)!important;
+}
+
+.link6 {
+    padding: 12px 32px!important;
+    transition: color ease 0.35s, background-color ease 0.35s!important;
+}
+
+.link6:hover {
+    background-color: black!important;
+    color: white!important;
+}
+
+main {
+    margin-top: 110px!important;
+}
+
+.main-button {
+    outline: none!important;
+}
+
+.main-button i {
+    transition: color ease 0.15s;
+}
+
+.main-button i:hover {
+    color: red;
+}
+
+.store {
+    border-radius: 5px;
+    transition: box-shadow ease 0.15s;
+}
+
+.store:hover {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.7)!important;
+}
+
+.warranty {
+    margin-top: 100px;
+}
+
+.warranty-text-part {
+    font-size: 18px!important;
+    margin-top: 200px;
+}
+
+.cashback {
+    margin-top: 200px;
+}
+
+.cashback-link {
+    padding: 12px 32px!important;
+    transition: color ease 0.35s, background-color ease 0.35s!important;
+}
+
+.cashback-link:hover {
+    background-color: black!important;
+    color: white!important;
+}
+
+.brands {
+    margin-top: 100px;
+}
+
+.brands-li img {
+    transition: filter ease 0.15s;
+}
+
+.brands-li img:hover{
+    filter: brightness(5);
+}
+
+.pay {
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.pay-subtext {
+    margin-bottom: 0!important;
+    margin-left: 10px!important;
+}
+
+.apay {
+    font-size: 48px;
+    border: 2px solid #222222;
+    border-radius: 5px;
+    padding: 5px 9px;
+    margin-right: 25px;
+    color: #222222;
+    transition: box-shadow ease 0.15s, transform ease 0.15s;
+}
+
+.apay:hover {
+    box-shadow: 0 5px 5px gray;
+    color: #222222;
+    transform: translateY(-5px);
+}
+
+.apple {
+    font-size: 30px;
+}
+
+.shopping {
+    margin-top: 150px;
+}
+
+.shopping-subtext {
+    margin: 25px 0;
+}
+
+.fees {
+    margin-top: 100px;
+}
+
+.fees-subtitle {
+    margin-top: 80px;
+}
+
+.fees-subtext {
+    margin: 30px 0;
+}
+
+hr {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.footer-link {
+    color: black;
+    transition: color ease 0.15s;
+}
+
+.footer-link:hover {
+    color: rgb(255, 0, 0);
+}
+
+.linkedin {
+    border: 2px solid black;
+    padding: 11px 12px;
+    font-size: 20px;
+    transition: border-color ease  0.15s;
+}
+
+.linked:hover {
+    color: rgb(0, 119, 255);
+}
+
+.linked:hover .linkedin {
+    border-color: rgb(0, 119, 255);
+}
+
+.footer-li {
+    margin-bottom: 15px!important;
+}
+
+.main-li {
+    margin-bottom: 33px!important;
+    font-weight: 600;
+}
+
+.last {
+    margin: 60px 0;
+}
+
+.last-subtext {
+    color: #AAAAAA;
+    font-size: 12px;
+    margin-top: 33px;
+}
+
+@media (max-width: 1200px) {
+    .main-img, .warranty-img {
+        width: 470px;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-img, .warranty-img {
+        width: 350px;
+    }
+
+    .brands-link img {
+        width: 150px;
+    }
+
+    .footer-link {
+        font-size: 15px;
+    }
+}
