@@ -109,9 +109,12 @@ main {
     border: 2px solid #222222;
     border-radius: 5px;
     padding: 5px 9px;
-    margin-right: 25px;
     color: #222222;
     transition: box-shadow ease 0.15s, transform ease 0.15s;
+}
+
+.pay-link {
+    margin-right: 25px;
 }
 
 .apay:hover {
@@ -249,5 +252,42 @@ hr {
 
     .brands-link img {
         width: 110px;
+    }
+
+    .nav-link {
+        padding: 5px 6px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .nav-link {
+        font-size: 12px;
+        padding: 5px 6px;
+    }
+
+    .brands-link img {
+        width: 80px;
+    }
+
+    .footer .container {
+        flex-wrap: wrap;
+        justify-content: start!important;
+    }
+
+    .last-subtext {
+        font-size: 7px;
+    }
+
+    .pci-img {
+        width: 90px;
+    }
+
+    .main-img, .warranty-img {
+        width: 300px;
+    }
+
+    .start-subtext {
+        font-size: 14px;
     }
 }
