@@ -211,3 +211,43 @@ hr {
         font-size: 15px;
     }
 }
+
+@media (max-width: 767px) {
+    .main-img, .warranty-img {
+        width: 400px;
+        margin-top: 100px;
+    }
+
+    .warranty-text-part {
+        margin-top: 50px;
+    }
+
+    .footer-link {
+        font-size: 10px;
+    }
+
+    .linkedin {
+        font-size: 12px;
+        padding: 5px 6px;
+    }
+
+    .last-subtext {
+        font-size: 9px;
+    }
+
+    .zen-footer {
+        width: 200px;
+    }
+
+    .pci-img {
+        width: 120px;
+    }
+
+    .warranty-text-part, .cashback-info, .shopping-text-part, .fees-text-part {
+        text-align: justify;
+    }
+
+    .brands-link img {
+        width: 110px;
+    }
+}

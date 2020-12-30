@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zen</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -18,7 +20,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container d-flex justify-content-start">
+        <div class="container d-flex justify-content-start align-items-center">
             <a class="navbar-brand me-5" href="#">
                 <img src="img/zen-logo.png" alt="img" class="nav-logo">
             </a>
@@ -30,43 +32,46 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="nav-menu">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link ms-lg-3" href="#">Personal</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ms-lg-3" href="#">Business</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link me-4" href="#">Zenefits</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-4" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-4" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link border rounded-pill border-dark link6" href="#">Get app</a>
-                    </li>
-                </ul>
+                <div class="d-flex w-100 align-items-center mt-3 mt-md-0">
+                    <ul class="d-flex me-md-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link ms-lg-3" href="#">Personal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-lg-3" href="#">Business</a>
+                        </li>
+                    </ul>
+                    <ul class="d-flex mb-2 mb-md-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-4" href="#">Zenefits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-4" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-4" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border rounded-pill border-dark link6" href="#">Get app</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
     <main>
-        <div class="container d-flex align-items-center justify-content-between">
-            <div class="main-text-part col-xl-4 col-md-6 me-lg-5">
-                <div class="main-start d-flex align-items-center">
+        <div
+            class="container d-flex flex-column flex-md-row align-items-md-center justify-content-md-between align-items-center">
+            <div class="main-text-part col-xl-4 col-sm-8 col-md-6 me-lg-5 text-sm-center text-md-start">
+                <div class="main-start d-flex align-items-center justify-content-md-start justify-content-sm-center">
                     <button class="main-button border-0 bg-transparent" type="button"><i
                             class="fs-5 far fa-play-circle me-2"></i></button>
                     <p class="start-subtext mb-0">In every beginning, there is chaos.</p>
                 </div>
                 <p class="main-title fs-1 my-4">Peaceful shopping.<br>Mindful money.</p>
-                <p class="subtitle">See how we can help with making your shopping experience and money management more
+                <p class="subtitle ">See how we can help with making your shopping experience and money management more
                     ZEN.</p>
-                <div class="stores col-6 d-flex flex-column align-items-start">
+                <div class="stores col-6 d-flex flex-column align-items-start mx-sm-auto mx-md-0">
                     <a href="#" class="play store mb-2"><img src="img/playmarket.png" alt="img"></a>
                     <a href="#" class="app store"><img src="img/appstore.png" alt="img"></a>
                 </div>
@@ -77,12 +82,13 @@
         </div>
     </main>
     <section class="warranty">
-        <div class="container d-flex align-items-center justify-content-between">
+        <div
+            class="container d-flex flex-md-row align-items-center justify-content-between flex-column-reverse">
             <div class="warranty-img-part">
                 <img class="warranty-img" src="img/Rectangle (1).png" alt="img">
             </div>
-            <div class="warranty-text-part col-5">
-                <p class="warranty-subtitle fs-2">1-year warranty boost</p>
+            <div class="warranty-text-part col-8 col-md-5 text-md-start">
+                <p class="warranty-subtitle fs-2 text-center text-md-start">1-year warranty boost</p>
                 <p class="warranty-subtext">
                     ZEN cards have a very neat feature that will help you whenever your electronic devices start failing
                     after the standard warranty ends, which is pretty common.
@@ -95,12 +101,12 @@
         </div>
     </section>
     <section class="warranty">
-        <div class="container d-flex flex-row-reverse align-items-center justify-content-between">
+        <div class="container d-flex flex-md-row-reverse align-items-center justify-content-between flex-column-reverse">
             <div class="warranty-img-part">
                 <img class="warranty-img" src="img/Rectangle (2).png" alt="img">
             </div>
-            <div class="warranty-text-part col-5">
-                <p class="warranty-subtitle fs-2">ZEN Care</p>
+            <div class="warranty-text-part col-8 text-md-start col-md-5">
+                <p class="warranty-subtitle fs-2 text-center text-md-start">ZEN Care</p>
                 <p class="warranty-subtext">
                     Shopping online is usually a delightful experience. Until it's not.
                     <br>
@@ -117,9 +123,9 @@
         </div>
     </section>
     <section class="cashback">
-        <div class="container d-flex flex-column align-items-center col-5">
-            <p class="cashback-subtitle fs-2 mb-0">and cashback!</p>
-            <p class="cashback-subtext text-center">It saves a little bit of money while you’re shopping, but in many
+        <div class="cashback-info container d-flex flex-column align-items-center col-8 col-md-5 text-md-start">
+            <p class="cashback-subtitle fs-2 mb-0 text-center text-md-start">and cashback!</p>
+            <p class="cashback-subtext">It saves a little bit of money while you’re shopping, but in many
                 cases it takes ages to get anything out of it. We gave it a thought and made cashback way more friendly.
                 Up to 14% of what you spend using ZEN Mastercard ® will materialize on your account right after the
                 purchase. It's like you haggled some cash, despite you didn't have to. Just don't forget to use in-app
@@ -176,9 +182,9 @@
         </div>
     </section>
     <section class="shopping">
-        <div class="container d-flex align-items-center justify-content-between">
-            <div class="shopping-text-part col-xl-4 col-lg-5">
-                <p class="shopping-subtitle fs-3">
+        <div class="container d-flex align-items-center justify-content-between flex-column flex-md-row">
+            <div class="shopping-text-part col-10 col-md-6">
+                <p class="shopping-subtitle fs-3 text-md-start text-center">
                     ZEN shopping Mastercard <sup>®</sup>
                 </p>
                 <p class="shopping-subtext">
@@ -187,7 +193,7 @@
                     streamlined, and works like a charm. You can have a shopping card, a subscription card, and whatever
                     other cards that make sense to you.
                 </p>
-                <div class="pay d-flex">
+                <div class="pay d-flex justify-content-center justify-content-md-start">
                     <a href="#" class="apay d-flex
                     align-items-center">
                         <i class="fab fa-apple apple"></i>
@@ -206,58 +212,65 @@
         </div>
     </section>
     <section class="fees">
-        <div class="container d-flex align-items-center justify-content-between">
+        <div class="container d-flex align-items-center justify-content-between flex-column-reverse flex-md-row">
             <div class="fees-img-part">
                 <img class="warranty-img" src="img/Rectangle (4).png" alt="img">
             </div>
-            <div class="fees-text-part col-5">
-                <p class="fees-subtitle fs-2">Shopping with no fees</p>
+            <div class="fees-text-part col-8 col-md-5">
+                <p class="fees-subtitle fs-2 text-center text-md-start">Shopping with no fees</p>
                 <p class="fees-subtext">
-                    Online shopping is flawed with all kind of fees. Currency exchange fees, processing fees and even fees for having multiple fees. Getting rid of them became our hobby. Same goes for ATM withdrawal fees.
+                    Online shopping is flawed with all kind of fees. Currency exchange fees, processing fees and even
+                    fees for having multiple fees. Getting rid of them became our hobby. Same goes for ATM withdrawal
+                    fees.
                     <br>
                     <br>
-                    Enjoy your money globally. Every uncut part of it. Keep reading. ZEN goes beyond shopping with a fully functional account.
+                    Enjoy your money globally. Every uncut part of it. Keep reading. ZEN goes beyond shopping with a
+                    fully functional account.
                 </p>
             </div>
         </div>
     </section>
     <section class="fees">
-        <div class="container d-flex flex-row-reverse align-items-center justify-content-between">
+        <div class="container d-flex flex-md-row-reverse flex-column-reverse align-items-center justify-content-between">
             <div class="fees-img-part">
                 <img class="warranty-img" src="img/Rectangle (5).png" alt="img">
             </div>
-            <div class="fees-text-part col-lg-4">
-                <p class="fees-subtitle fs-2">One app, one account, many currencies</p>
+            <div class="fees-text-part col-11 col-md-5">
+                <p class="fees-subtitle fs-2 text-md-start text-center">One app, one account, many currencies</p>
                 <p class="fees-subtext">
-                    ZEN Mastercard® was made for spending money. ZEN account is here to store and manage it peacefully, from the inside of your pocket.
+                    ZEN Mastercard® was made for spending money. ZEN account is here to store and manage it peacefully,
+                    from the inside of your pocket.
                     <br>
                     <br>
-                    You can use it just like a regular account, as it has its own IBAN and works just the way any bank account would — but better. Store up to 30 currencies and transfer them easily in many ways.
+                    You can use it just like a regular account, as it has its own IBAN and works just the way any bank
+                    account would — but better. Store up to 30 currencies and transfer them easily in many ways.
                 </p>
             </div>
         </div>
     </section>
     <section class="fees">
-        <div class="container d-flex align-items-center justify-content-between">
+        <div class="container d-flex align-items-center justify-content-between flex-column-reverse flex-md-row">
             <div class="fees-img-part">
                 <img class="warranty-img" src="img/Rectangle (6).png" alt="img">
             </div>
-            <div class="fees-text-part col-md-5 col-lg-4">
-                <p class="fees-subtitle fs-2">Quick and easy account creation</p>
+            <div class="fees-text-part col-md-5 col-10">
+                <p class="fees-subtitle fs-2 text-center text-md-start">Quick and easy account creation</p>
                 <p class="fees-subtext">
-                    Now, you might be thinking that it’s just like any other account creation… Long, tiresome and full of endless blanks to fill in. Well, it’s not.
+                    Now, you might be thinking that it’s just like any other account creation… Long, tiresome and full
+                    of endless blanks to fill in. Well, it’s not.
                     <br>
                     <br>
-                    We have designed the whole process to make it the simplest and the shortest one ever conceived for a personal account. Download the app and see for yourself!
+                    We have designed the whole process to make it the simplest and the shortest one ever conceived for a
+                    personal account. Download the app and see for yourself!
                 </p>
-                <div class="stores col-4 d-flex flex-xl-row flex-sm-column align-items-xl-center">
+                <div class="stores col-4 d-flex flex-md-row flex-column mx-auto mx-md-0">
                     <a href="#" class="play store me-2 mb-sm-2 mb-xl-0"><img src="img/playmarket.png" alt="img"></a>
                     <a href="#" class="app store"><img src="img/appstore.png" alt="img"></a>
                 </div>
             </div>
         </div>
     </section>
-    <hr class="container">    
+    <hr class="container">
     <section class="footer">
         <div class="container d-flex align-items-start justify-content-between">
             <ul class="footer-ul d-flex flex-column justify-content-between">
@@ -339,11 +352,15 @@
     <section class="last">
         <div class="container">
             <div class="last1">
-                <img src="img/zen-footer.png" alt="img">
+                <img class="zen-footer" src="img/zen-footer.png" alt="img">
             </div>
             <div class="last2 d-flex align-items-center justify-content-between">
-                <p class="last-subtext col-9 me-md-3">ZEN.COM is a licensed financial institution under the supervision of the Central Bank of Lithuania approved by European Banking Authority for 31 countries. Registration number of the company 304749651, VAT ID LT100011714916. License of electronic money institutions number LB000457. Share capital 2.185.000,00 EUR. Company address: Mėsinių g. 5, LT-01133, Vilnius, Lithuania. Sales Office: ul. Emilii Plater 53, 00-113 Warsaw, Poland.</p>
-                <img src="img/pci.png" alt="img">
+                <p class="last-subtext col-9 me-md-3">ZEN.COM is a licensed financial institution under the supervision
+                    of the Central Bank of Lithuania approved by European Banking Authority for 31 countries.
+                    Registration number of the company 304749651, VAT ID LT100011714916. License of electronic money
+                    institutions number LB000457. Share capital 2.185.000,00 EUR. Company address: Mėsinių g. 5,
+                    LT-01133, Vilnius, Lithuania. Sales Office: ul. Emilii Plater 53, 00-113 Warsaw, Poland.</p>
+                <img class="pci-img" src="img/pci.png" alt="img">
             </div>
         </div>
     </section>
