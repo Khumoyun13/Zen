@@ -263,7 +263,10 @@ hr {
 @media (max-width: 575px) {
     .nav-link {
         font-size: 12px;
-        padding: 5px 6px;
+    }
+
+    .link6 {
+        padding: 5px 6px!important;
     }
 
     .brands-link img {
